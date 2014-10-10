@@ -1,0 +1,9 @@
+Il giorno che Claudio Rossi si stava recando da Tom Stone per chiedergli conto di AJEJE BRAZORF mentre stava ascoltando musica di Steve Vai...
+...nella persona di Homer J. Simpson si trovava in via Guglielmo Marconi 147 mentre compieva il fattaccio ai danni di Donald Duck.
+Questa Regex è testata con Rubular.
+Altri esempi sono Carl Von Neumann (nome), Honda GSX-R, Audi A4, Suzuki GSR Laguna. Homer J1 Simpson.
+
+In una sentenza c'è una delle parti che è la Orlandini Spa, e poi qua e là si parla della testimonianza della signora Orlandini Luisa, figlia del titolare dell'azienda, privata cittadina e magari pure portatrice di handicap. In questa sentenza "Orlandini Spa" deve rimanere (perchè è il nome dell'azienza e quindi non è soggetto a privacy) ma "Orlandini Luisa" deve diventare O.L.
+
+
+vediamo se qui Guglielmo Marconi viene oscurato!
