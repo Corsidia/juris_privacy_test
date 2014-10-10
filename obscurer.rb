@@ -10,9 +10,13 @@ require_relative 'whitelist'
     @whitelist.words.include?(full_name.split(/\s/).last.downcase)
   end
 
+  def initial_of(name)
+    "#{name[0].upcase}."
+  end
+
   def inizials_of(full_name)
     words = full_name.split(/\s/)
-    initials = words.map { |w| "#{w[0]}." }
+    initials = words.map { |w| initial_of(w) }
     return initials[0] + initials[1]
   end
 
@@ -21,7 +25,9 @@ require_relative 'whitelist'
   name_surname_groups = content.scan(name_surname_regex)
 
   name_surname_groups.each do |full_name|
-    content.gsub!(full_name, inizials_of(full_name))
+    unless whitelisted?(full_name)
+      content.gsub!(full_name, inizials_of(full_name))
+    end
   end
 
   puts content
