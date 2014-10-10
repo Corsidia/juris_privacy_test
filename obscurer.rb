@@ -21,7 +21,7 @@ require_relative 'whitelist'
   name_surname_groups = content.scan(name_surname_regex)
 
   name_surname_groups.each do |full_name|
-    content.gsub!(full_name, inizials_of(full_name))
+    content.gsub!(full_name, inizials_of(full_name)) unless whitelisted?(full_name)
   end
 
   puts content
