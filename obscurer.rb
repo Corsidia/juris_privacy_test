@@ -26,7 +26,9 @@ require_relative 'whitelist'
 
   name_surname_groups.each do |full_name|
     unless whitelisted?(full_name)
-      content.gsub!(full_name, inizials_of(full_name))
+      full_name.split(/\s/).each do |name|
+        content.gsub!(name, initial_of(name))
+      end
     end
   end
 
