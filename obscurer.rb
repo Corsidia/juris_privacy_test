@@ -32,4 +32,4 @@ require_relative 'whitelist'
     end
   end
 
-  puts content
+  File.open("output.txt", 'w') {|f| f.puts(content) }
