@@ -47419,6 +47419,7 @@ smussata
 smussate
 smussati
 smussato
+snc
 snaturata
 snaturate
 snaturati
@@ -48697,7 +48698,7 @@ spandono
 spanna
 spanne
 spanrsa
-spar
+spa
 spar
 spara
 sparai
@@ -50355,9 +50356,9 @@ sregolata
 sregolate
 sregolati
 sregolato
+srl
 srotolamento
 srotolati
-st
 sta
 stabil
 stabilano
@@ -56048,8 +56049,6 @@ traumi
 travagli
 travaglia
 travagliai
-travaglino
-travaglio
 travas
 travasa
 travasai
